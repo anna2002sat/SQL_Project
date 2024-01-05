@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="booksModelStoreContainer" CdmEntityContainer="booksEntities">
+    <EntitySetMapping Name="books">
+      <EntityTypeMapping TypeName="booksModel.book">
+        <MappingFragment StoreEntitySet="book">
+          <ScalarProperty Name="id_book" ColumnName="id_book" />
+          <ScalarProperty Name="nazva" ColumnName="nazva" />
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="yearPubl" ColumnName="yearPubl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="issueds">
+      <EntityTypeMapping TypeName="booksModel.issued">
+        <MappingFragment StoreEntitySet="issued">
+          <ScalarProperty Name="id_issue" ColumnName="id_issue" />
+          <ScalarProperty Name="issue_date" ColumnName="issue_date" />
+          <ScalarProperty Name="return_date" ColumnName="return_date" />
+          <ScalarProperty Name="real_return_date" ColumnName="real_return_date" />
+          <ScalarProperty Name="id_book" ColumnName="id_book" />
+          <ScalarProperty Name="id_reader" ColumnName="id_reader" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="readers">
+      <EntityTypeMapping TypeName="booksModel.reader">
+        <MappingFragment StoreEntitySet="reader">
+          <ScalarProperty Name="ticket_number" ColumnName="ticket_number" />
+          <ScalarProperty Name="name_reader" ColumnName="name_reader" />
+          <ScalarProperty Name="surName_reader" ColumnName="surName_reader" />
+          <ScalarProperty Name="address_reader" ColumnName="address_reader" />
+          <ScalarProperty Name="mark_disposal" ColumnName="mark_disposal" />
+          <ScalarProperty Name="PhoneNum" ColumnName="PhoneNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TotalPrices">
+      <EntityTypeMapping TypeName="booksModel.TotalPrice">
+        <MappingFragment StoreEntitySet="TotalPrices">
+          <ScalarProperty Name="id_reader" ColumnName="id_reader" />
+          <ScalarProperty Name="Suma" ColumnName="Suma" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ColCountProc" FunctionName="booksModel.Store.ColCountProc" />
+    <FunctionImportMapping FunctionImportName="CountDistinctValues" FunctionName="booksModel.Store.CountDistinctValues" />
+    <FunctionImportMapping FunctionImportName="GetCount" FunctionName="booksModel.Store.GetCount" />
+    <FunctionImportMapping FunctionImportName="GetRowCount" FunctionName="booksModel.Store.GetRowCount">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="booksModel.GetRowCount_Result">
+          <ScalarProperty Name="ticket_number" ColumnName="ticket_number" />
+          <ScalarProperty Name="name_reader" ColumnName="name_reader" />
+          <ScalarProperty Name="surName_reader" ColumnName="surName_reader" />
+          <ScalarProperty Name="address_reader" ColumnName="address_reader" />
+          <ScalarProperty Name="mark_disposal" ColumnName="mark_disposal" />
+          <ScalarProperty Name="PhoneNum" ColumnName="PhoneNum" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="RowCountT" FunctionName="booksModel.Store.RowCountT" />
+  </EntityContainerMapping>
+</Mapping>

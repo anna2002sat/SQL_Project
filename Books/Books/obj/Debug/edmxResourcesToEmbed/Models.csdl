@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="booksModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="book">
+    <Key>
+      <PropertyRef Name="id_book" />
+    </Key>
+    <Property Name="id_book" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nazva" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="author" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="Decimal" Precision="6" Scale="2" />
+    <Property Name="amount" Type="Int32" />
+    <Property Name="yearPubl" Type="Int32" />
+    <NavigationProperty Name="issueds" Relationship="Self.FK__issued__id_book__41EDCAC5" FromRole="book" ToRole="issued" />
+  </EntityType>
+  <EntityType Name="issued">
+    <Key>
+      <PropertyRef Name="id_issue" />
+    </Key>
+    <Property Name="id_issue" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="issue_date" Type="DateTime" Precision="3" />
+    <Property Name="return_date" Type="DateTime" Precision="3" />
+    <Property Name="real_return_date" Type="DateTime" Precision="3" />
+    <Property Name="id_book" Type="Int32" Nullable="false" />
+    <Property Name="id_reader" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="book" Relationship="Self.FK__issued__id_book__41EDCAC5" FromRole="issued" ToRole="book" />
+    <NavigationProperty Name="reader" Relationship="Self.FK__issued__id_reade__42E1EEFE" FromRole="issued" ToRole="reader" />
+  </EntityType>
+  <EntityType Name="reader">
+    <Key>
+      <PropertyRef Name="ticket_number" />
+    </Key>
+    <Property Name="ticket_number" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name_reader" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="surName_reader" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="address_reader" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="mark_disposal" Type="Int32" />
+    <Property Name="PhoneNum" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="issueds" Relationship="Self.FK__issued__id_reade__42E1EEFE" FromRole="reader" ToRole="issued" />
+  </EntityType>
+  <EntityType Name="TotalPrice">
+    <Key>
+      <PropertyRef Name="id_reader" />
+    </Key>
+    <Property Name="id_reader" Type="Int32" Nullable="false" />
+    <Property Name="Suma" Type="Decimal" Precision="38" Scale="2" />
+  </EntityType>
+  <Association Name="FK__issued__id_book__41EDCAC5">
+    <End Role="book" Type="Self.book" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="issued" Type="Self.issued" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="book">
+        <PropertyRef Name="id_book" />
+      </Principal>
+      <Dependent Role="issued">
+        <PropertyRef Name="id_book" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__issued__id_reade__42E1EEFE">
+    <End Role="reader" Type="Self.reader" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="issued" Type="Self.issued" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="reader">
+        <PropertyRef Name="ticket_number" />
+      </Principal>
+      <Dependent Role="issued">
+        <PropertyRef Name="id_reader" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="booksEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="books" EntityType="Self.book" />
+    <EntitySet Name="issueds" EntityType="Self.issued" />
+    <EntitySet Name="readers" EntityType="Self.reader" />
+    <EntitySet Name="TotalPrices" EntityType="Self.TotalPrice" />
+    <AssociationSet Name="FK__issued__id_book__41EDCAC5" Association="Self.FK__issued__id_book__41EDCAC5">
+      <End Role="book" EntitySet="books" />
+      <End Role="issued" EntitySet="issueds" />
+    </AssociationSet>
+    <AssociationSet Name="FK__issued__id_reade__42E1EEFE" Association="Self.FK__issued__id_reade__42E1EEFE">
+      <End Role="reader" EntitySet="readers" />
+      <End Role="issued" EntitySet="issueds" />
+    </AssociationSet>
+    <FunctionImport Name="ColCountProc" />
+    <FunctionImport Name="CountDistinctValues">
+      <Parameter Name="table" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetCount">
+      <Parameter Name="cnt" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetRowCount" ReturnType="Collection(booksModel.GetRowCount_Result)">
+      <Parameter Name="cnt" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="HAS_MORE_100" ReturnType="Collection(booksModel.HAS_MORE_100_Result)" />
+    <FunctionImport Name="MaxAmountOfCopies" ReturnType="Collection(booksModel.MaxAmountOfCopies_Result)" />
+    <FunctionImport Name="RowCountT" />
+  </EntityContainer>
+  <ComplexType Name="GetRowCount_Result">
+    <Property Type="Int32" Name="ticket_number" Nullable="false" />
+    <Property Type="String" Name="name_reader" Nullable="true" MaxLength="40" />
+    <Property Type="String" Name="surName_reader" Nullable="true" MaxLength="40" />
+    <Property Type="String" Name="address_reader" Nullable="true" MaxLength="60" />
+    <Property Type="Int32" Name="mark_disposal" Nullable="true" />
+    <Property Type="String" Name="PhoneNum" Nullable="true" MaxLength="12" />
+  </ComplexType>
+  <ComplexType Name="HAS_MORE_100_Result">
+    <Property Type="String" Name="surName_reader" Nullable="true" MaxLength="40" />
+    <Property Type="String" Name="name_reader" Nullable="true" MaxLength="40" />
+    <Property Type="Decimal" Name="Suma" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="MaxAmountOfCopies_Result">
+    <Property Type="String" Name="nazva" Nullable="true" MaxLength="40" />
+    <Property Type="Int32" Name="amount" Nullable="true" />
+  </ComplexType>
+</Schema>

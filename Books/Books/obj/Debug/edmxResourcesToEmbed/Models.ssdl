@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="booksModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="book">
+    <Key>
+      <PropertyRef Name="id_book" />
+    </Key>
+    <Property Name="id_book" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nazva" Type="nvarchar" MaxLength="40" />
+    <Property Name="author" Type="nvarchar" MaxLength="40" />
+    <Property Name="price" Type="decimal" Precision="6" Scale="2" />
+    <Property Name="amount" Type="int" />
+    <Property Name="yearPubl" Type="int" />
+  </EntityType>
+  <EntityType Name="issued">
+    <Key>
+      <PropertyRef Name="id_issue" />
+    </Key>
+    <Property Name="id_issue" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="issue_date" Type="datetime" />
+    <Property Name="return_date" Type="datetime" />
+    <Property Name="real_return_date" Type="datetime" />
+    <Property Name="id_book" Type="int" Nullable="false" />
+    <Property Name="id_reader" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="reader">
+    <Key>
+      <PropertyRef Name="ticket_number" />
+    </Key>
+    <Property Name="ticket_number" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_reader" Type="nvarchar" MaxLength="40" />
+    <Property Name="surName_reader" Type="nvarchar" MaxLength="40" />
+    <Property Name="address_reader" Type="nvarchar" MaxLength="60" />
+    <Property Name="mark_disposal" Type="int" />
+    <Property Name="PhoneNum" Type="char" MaxLength="12" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'books.dbo.RowCounts' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="RowCounts">
+          <Property Name="TableName" Type="nvarchar" MaxLength="40" />
+          <Property Name="NumberOfRows" Type="nvarchar" MaxLength="40" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'books.dbo.TotalPrices' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TotalPrices">
+    <Key>
+      <PropertyRef Name="id_reader" />
+    </Key>
+    <Property Name="id_reader" Type="int" Nullable="false" />
+    <Property Name="Suma" Type="decimal" Precision="38" Scale="2" />
+  </EntityType>
+  <Association Name="FK__issued__id_book__41EDCAC5">
+    <End Role="book" Type="Self.book" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="issued" Type="Self.issued" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="book">
+        <PropertyRef Name="id_book" />
+      </Principal>
+      <Dependent Role="issued">
+        <PropertyRef Name="id_book" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__issued__id_reade__42E1EEFE">
+    <End Role="reader" Type="Self.reader" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="issued" Type="Self.issued" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="reader">
+        <PropertyRef Name="ticket_number" />
+      </Principal>
+      <Dependent Role="issued">
+        <PropertyRef Name="id_reader" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="ColCountProc" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="CountDistinctValues" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="table" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GetCount" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cnt" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="GetRowCount" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cnt" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="HAS_MORE_100" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="MaxAmountOfCopies" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="RowCountT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="booksModelStoreContainer">
+    <EntitySet Name="book" EntityType="Self.book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="issued" EntityType="Self.issued" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="reader" EntityType="Self.reader" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TotalPrices" EntityType="Self.TotalPrices" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TotalPrices].[id_reader] AS [id_reader], 
+    [TotalPrices].[Suma] AS [Suma]
+    FROM [dbo].[TotalPrices] AS [TotalPrices]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__issued__id_book__41EDCAC5" Association="Self.FK__issued__id_book__41EDCAC5">
+      <End Role="book" EntitySet="book" />
+      <End Role="issued" EntitySet="issued" />
+    </AssociationSet>
+    <AssociationSet Name="FK__issued__id_reade__42E1EEFE" Association="Self.FK__issued__id_reade__42E1EEFE">
+      <End Role="reader" EntitySet="reader" />
+      <End Role="issued" EntitySet="issued" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

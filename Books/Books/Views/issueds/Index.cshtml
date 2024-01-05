@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Books.issued>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Issues:</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", null, htmlAttributes: new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>Issue date</th>
+        <th>Return Date</th>
+        <th>Actual Return Date</th>
+        <th>Title</th>
+        <th>Reader</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.issue_date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.return_date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.real_return_date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.book.nazva)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => (item.reader.surName_reader ))
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_issue }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_issue }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_issue })
+        </td>
+    </tr>
+}
+
+</table>

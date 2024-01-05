@@ -1,0 +1,57 @@
+﻿@model Books.book
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Book Details:</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nazva)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nazva)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.author)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.author)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.amount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.amount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.yearPubl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.yearPubl)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_book }, htmlAttributes: new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

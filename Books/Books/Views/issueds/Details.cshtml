@@ -1,0 +1,57 @@
+﻿@model Books.issued
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Issue Details:</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.issue_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.issue_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.return_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.return_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.real_return_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.real_return_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.book.nazva)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.book.nazva)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.reader.name_reader)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reader.name_reader)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_issue }, htmlAttributes: new { @class = "btn btn-info"}) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

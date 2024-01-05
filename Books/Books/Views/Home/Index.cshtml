@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1 class="text-center">Some useful information...</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-4">
+        <h2 class="text-center">The most popular book:</h2>
+        <p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Title</td>
+                        <td>Amount of copies</td>
+                    </tr>
+                </thead>
+                @foreach (var r in ViewBag.MaxAmountOfCopies_Result)
+                {
+                    <tr>
+                        <td>@r.nazva</td>
+                        <td>@r.amount</td>
+                    </tr>
+                }
+            </table>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2 class="text-center">Readers who have more than 100uah:</h2>
+        <p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Surname</td>
+                        <td>Name</td>
+                        <td>Sum</td>
+                    </tr>
+                </thead>
+                @foreach (var r in ViewBag.HAS_MORE_100_Result)
+                {
+                    <tr>
+                        <td>@r.surName_reader</td>
+                        <td>@r.name_reader</td>
+                        <td>@r.Suma</td>
+                    </tr>
+                }
+            </table>
+        </p>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+<div class="row container">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <h2 class="text-center">Total Price by readers:</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID reader</th>
+                    <th>Total Sum</th>
+                </tr>
+            </thead>
+            @foreach (var r in ViewBag.TotalPrices)
+            {
+                <tr>
+                    <td><a href="/readers/Details/@r.id_reader">@r.id_reader reader</a></td>
+                    <td>@r.Suma</td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="col-md-3"></div>
+</div>

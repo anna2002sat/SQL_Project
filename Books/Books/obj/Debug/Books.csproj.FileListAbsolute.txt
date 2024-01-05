@@ -1,0 +1,165 @@
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\Books.dll.config
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\Books.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\Books.pdb
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csc.exe
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csc.exe.config
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csc.rsp
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csi.exe
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csi.exe.config
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csi.rsp
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.AppContext.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Console.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.IO.Compression.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Net.Http.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Net.Sockets.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.ValueTuple.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Xml.XPath.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\vbc.exe
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\vbc.exe.config
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\vbc.rsp
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\VBCSCompiler.exe
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\Antlr3.Runtime.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\EntityFramework.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\EntityFramework.SqlServer.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\Newtonsoft.Json.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Helpers.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Mvc.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Optimization.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Razor.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.Deployment.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.Razor.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\WebGrease.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\EntityFramework.xml
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\EntityFramework.SqlServer.xml
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Helpers.xml
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Mvc.xml
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Optimization.xml
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Razor.xml
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.xml
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.Deployment.xml
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.Razor.xml
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\Newtonsoft.Json.xml
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\Antlr3.Runtime.pdb
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\obj\Debug\Books.csproj.CopyComplete
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\obj\Debug\Books.dll
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\obj\Debug\Books.pdb
+C:\Users\strel\Desktop\4 semester\БД\kr_end_semester\Books\Books\obj\Debug\Books.csprojAssemblyReference.cache
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\Books.dll.config
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\Books.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\Books.pdb
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csc.exe
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csc.exe.config
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csc.rsp
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csi.exe
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csi.exe.config
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\csi.rsp
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.AppContext.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Console.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.IO.Compression.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Net.Http.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Net.Sockets.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.ValueTuple.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Xml.XPath.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\vbc.exe
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\vbc.exe.config
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\vbc.rsp
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\VBCSCompiler.exe
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\Antlr3.Runtime.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\EntityFramework.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\EntityFramework.SqlServer.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\Newtonsoft.Json.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Helpers.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Mvc.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Optimization.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Razor.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.Deployment.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.Razor.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\WebGrease.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\EntityFramework.xml
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\EntityFramework.SqlServer.xml
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Helpers.xml
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Mvc.xml
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Optimization.xml
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.Razor.xml
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.xml
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.Deployment.xml
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\System.Web.WebPages.Razor.xml
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\Newtonsoft.Json.xml
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\Antlr3.Runtime.pdb
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\obj\Debug\Books.csproj.AssemblyReference.cache
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\obj\Debug\Books.csproj.CoreCompileInputs.cache
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\obj\Debug\Books.csproj.CopyComplete
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\obj\Debug\Books.dll
+C:\Users\strel\Documents\ZST University\4 semester\БД\kr_end_semester\Books\Books\obj\Debug\Books.pdb
